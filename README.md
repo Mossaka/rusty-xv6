@@ -1,6 +1,7 @@
 # Rust on Xv6-RISC-V
 ## How to run user Rust program in Xv6-RISC-V
 
+- Run `make init` to add rist-v target to rustc 
 - Run `make build` to build the program.
 
   > It will generate a `_rusty` binary, statically linked with the Xv6-RISC-V user lib.
